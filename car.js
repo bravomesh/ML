@@ -1,4 +1,4 @@
-// gh"
+
 class Car{
     constructor(x, y, width, height, controlType, maxSpeed =3){
         this.x = x;

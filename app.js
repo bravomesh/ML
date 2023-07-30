@@ -1,12 +1,12 @@
-// gh"
+
 const canvas = document.getElementById("myCanvas");
 canvas.width = 200;
 const ctx = canvas.getContext("2d");
 const road = new Road(canvas.width/2, canvas.width * 0.94);
 const car = new Car(road.getLaneCenter(1), 100, 30, 50,"KEYS");
-const traffic =[
+const traffic =[ 
    new Car(road.getLaneCenter(1), 50, 30, 50,"DUMMY",2)
-
+   
 ];
 animate();
  function animate(){
